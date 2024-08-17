@@ -37,7 +37,7 @@ services:
         - CLUSTER_YES=${CLUSTER_YES}
         - CLUSTER_USER_INTERVAL=${CLUSTER_USER_INTERVAL}
     env_file:
-      - prod.env
+      - stack.env
     tty: true
     ports:
       - "${CLUSTER_PORT:-7300}:7300"
