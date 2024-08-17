@@ -60,40 +60,40 @@ volumes:
       driver_opts:
          o: bind
          type: none
-         device: /home/brian/dxspider-deployment/spider/connect
+         device: /var/snap/docker/common/var-lib-docker/volumes/dxspider-deployment/spider/connect
    dxspider-data-data:
       driver: local
       driver_opts:
          o: bind
          type: none
-         device: /home/brian/dxspider-deployment/spider/data
+         device: /var/snap/docker/common/var-lib-docker/volumes/dxspider-deployment/spider/data
    dxspider-data-local:
       driver: local
       driver_opts:
          o: bind
          type: none
-         device: /home/brian/dxspider-deployment/spider/local
+         device: /var/snap/docker/common/var-lib-docker/volumes/dxspider-deployment/spider/local
    dxspider-data-local_cmd:
       driver: local
       driver_opts:
          o: bind
          type: none
-         device: /home/brian/dxspider-deployment/spider/local_cmd
+         device: /var/snap/docker/common/var-lib-docker/volumes/dxspider-deployment/spider/local_cmd
    dxspider-data-local_data:
       driver: local
       driver_opts:
          o: bind
          type: none
-         device: /home/brian/dxspider-deployment/spider/local_data
+         device: /var/snap/docker/common/var-lib-docker/volumes/dxspider-deployment/spider/local_data
    dxspider-data-scripts:
       driver: local
       driver_opts:
          o: bind
          type: none
-         device: /home/brian/dxspider-deployment/spider/scripts
+         device: /var/snap/docker/common/var-lib-docker/volumes/dxspider-deployment/spider/scripts
    dxspider-data-tmp:
       driver: local
       driver_opts:
          o: bind
          type: none
-         device: /home/brian/dxspider-deployment/spider/tmp
+         device: /var/snap/docker/common/var-lib-docker/volumes/dxspider-deployment/spider/tmp
